@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'HRMS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Department',
+        'NAME': 'department',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': 'localhost',
@@ -140,3 +140,4 @@ CSRF_COOKIE_SECURE = True
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
